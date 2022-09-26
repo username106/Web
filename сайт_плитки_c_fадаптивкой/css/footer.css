@@ -1,0 +1,128 @@
+.space{
+    margin: 0 auto;
+    height: 50px;
+    width: 1500px;
+}
+.footer{
+    margin: 0 auto;
+
+    height: 250px;
+    width: 1500px;
+    display: flex;
+    flex-direction: row;
+}
+.LogoSsilki{
+    width: 25%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    background: url("../img/Plogo.png")no-repeat center;
+    border-radius: 50%;
+    margin: 55px  0 0 50px;
+    background-size: cover;
+}
+.ssilki{
+
+    width: 20%;
+    height: 100%;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    text-align: center;
+}
+.ssilki a:nth-child(1){
+
+    background: url("../img/twiter.png") center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+.ssilki a:nth-child(2){
+
+    background: url("../img/vk.png") center;
+    background-size: cover;
+    width: 70px;
+    height: 50px;
+
+}
+.ssilki a:nth-child(3){
+
+    background: url("../img/youtube.png") center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+.ssilki a:nth-child(4){
+
+    background: url("../img/telegram.png") center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+.AdressaTel{
+    width: 75%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.adress{
+    width: 33%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.adress,.tel,.clock p{
+    font-size: 40px;
+}
+.vector:nth-child(1){
+    background: url("../img/gps.png") center;
+    background-size: cover;
+    height:100px;
+    width: 100px;
+    margin-left: 140px;
+}
+.tel{
+    width: 33%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.tel .vector{
+    background: url("../img/phone.png") center;
+    background-size: cover;
+    height:100px;
+    width: 100px;
+    margin-left: 140px;
+}
+.clock{
+    width: 33%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.clock .vector{
+    background: url("../img/clock.png") center;
+    background-size: cover;
+    height:100px;
+    width: 100px;
+    margin-left: 140px;
+}

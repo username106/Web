@@ -1,0 +1,399 @@
+@media screen and (max-device-width: 1280px) {
+    header{
+        min-height: 450px;
+    }
+  .texta{
+      max-width: 800px;
+      margin: 0 auto;
+      min-height: 450px;
+  }
+  .texta h1:nth-child(4){
+      padding-left: 50px;
+  }
+  .vitrina{
+      max-width: 800px;
+      margin: 0;
+  }
+  .left{
+      left: -640px;
+  }
+  .back{
+      right: -640px;
+  }
+  .right{
+      transform:translateZ(640px) ;
+  }
+  .wrap{
+      -webkit-transform-origin:300px 50px 300px;
+  }
+  .filter{
+      max-width: 710px;
+      margin: 0;
+      min-height: 200px;
+      grid-template-rows: repeat(2,1fr);
+      grid-template-columns: repeat(4,1fr);
+  }
+  .actiya{
+      z-index: 10000;
+      top: 8px;
+      left: 600px;
+  }
+  .imge{
+      width: 100%;
+  }
+  .callekciya{
+      height: 6010px;
+      max-width: 750px;
+      margin: 0;
+  }
+  .line{
+      flex-direction: column;
+      max-width: 800px;
+      min-height: 1500px;
+  }
+    .catalog{
+        margin: 0 ;
+        max-width: 710px;
+    }
+    .block:nth-child(5) {
+        grid-column-start: 4;
+        grid-column-end: 7;
+        grid-row-start: 5;
+        grid-row-end: 7;
+        /* grid-area: a5; */
+    }
+    .block:nth-child(8) {
+        grid-column-start: 3;
+        grid-column-end: 7;
+        grid-row-start: 7;
+        grid-row-end: 9;
+        /* grid-area: a8; */
+    }
+    .block:nth-child(9){
+        grid-column-start:7 ;
+        grid-column-end:9 ;
+        grid-row-start:1 ;
+        grid-row-end:9 ;
+        /*grid-area: a9;*/
+    }
+    .space{
+        max-width: 800px;
+        margin: 0;
+    }
+    .footer{
+        max-width: 800px;
+        margin: 0;
+        flex-direction: column;
+    }
+    .LogoSsilki{
+        max-width: 800px;
+        min-width: 800px;
+    }
+    .AdressaTel{
+        max-width: 800px;
+        min-width: 740px;
+    }
+    .AdressaTel div{
+        font-size: 30px;
+    }
+    .AdressaTel div .vector{
+        margin:  0  0  0 60px;
+    }
+}
+@media screen and (max-device-width: 780px) {
+    header{
+        min-height: 450px;
+    }
+    .texta{
+        max-width: 800px;
+        margin: 0;
+        min-height: 450px;
+    }
+    .texta h1:nth-child(4){
+        padding-left: 50px;
+    }
+    .vitrina{
+        max-width: 800px;
+        margin: 0;
+    }
+    .left{
+        left: -640px;
+    }
+    .back{
+        right: -640px;
+    }
+    .right{
+        transform:translateZ(640px) ;
+    }
+    .wrap{
+        -webkit-transform-origin:200px 25px 200px;
+    }
+    .filter{
+        max-width: 715px;
+        margin: 0;
+        min-height: 200px;
+        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: repeat(4,1fr);
+    }
+    .actiya{
+        z-index: 10000;
+        top: 8px;
+        left: 600px;
+    }
+    .imge{
+        width: 100%;
+    }
+    .callekciya{
+        height: 6010px;
+        max-width: 800px;
+        margin: 0;
+    }
+    .line{
+        flex-direction: column;
+        max-width: 800px;
+        min-height: 1500px;
+    }
+    .catalog{
+        margin: 0 ;
+        min-height: 1700px;
+        max-width: 720px;
+        grid-template-columns:repeat(2,1fr) ;
+        grid-template-rows:repeat(12,1fr) ;
+      }
+    .block:nth-child(1) {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        /* grid-area: a8; */
+    }
+    .block:nth-child(2){
+        grid-column-start:1 ;
+        grid-column-end:1 ;
+        grid-row-start:3 ;
+        grid-row-end:5 ;
+        /*grid-area: a9;*/
+    }
+    .block:nth-child(3) {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 5;
+        grid-row-end: 7;
+        /* grid-area: a8; */
+    }
+    .block:nth-child(4){
+        grid-column-start:1 ;
+        grid-column-end:1 ;
+        grid-row-start:7 ;
+        grid-row-end:9 ;
+        /*grid-area: a9;*/
+    }
+    .block:nth-child(5) {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 9;
+        grid-row-end: 11;
+        /* grid-area: a8; */
+    }
+    .block:nth-child(6){
+        grid-column-start:2 ;
+        grid-column-end:2 ;
+        grid-row-start:9 ;
+        grid-row-end:11 ;
+        /*grid-area: a9;*/
+    }
+    .block:nth-child(7) {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 11;
+        grid-row-end: 13;
+        /* grid-area: a8; */
+    }
+    .block:nth-child(8){
+        grid-column-start:2 ;
+        grid-column-end:2 ;
+        grid-row-start:11 ;
+        grid-row-end:13 ;
+        /*grid-area: a9;*/
+    }
+    .block:nth-child(9){
+        grid-column-start:2 ;
+        grid-column-end:2 ;
+        grid-row-start:1 ;
+        grid-row-end:9 ;
+        /*grid-area: a9;*/
+    }
+
+    .space{
+        max-width: 800px;
+        margin: 0;
+    }
+    .footer{
+        max-width: 800px;
+        margin: 0;
+        flex-direction: column;
+    }
+    .LogoSsilki{
+        max-width: 800px;
+        min-width: 800px;
+    }
+    .AdressaTel{
+        max-width: 800px;
+        min-width: 740px;
+    }
+    .AdressaTel div{
+        font-size: 30px;
+    }
+    .AdressaTel div .vector{
+        margin:  0  0  0 60px;
+    }
+}
+@media screen and (max-device-width: 380px) {
+    header{
+        min-height: 450px;
+        min-width: 750px;
+    }
+    .texta{
+        max-width: 800px;
+        margin: 0;
+        min-height: 450px;
+    }
+    .texta h1:nth-child(4){
+        padding-left: 50px;
+    }
+    .vitrina{
+        max-width: 800px;
+        margin: 0;
+    }
+    .left{
+        left: -640px;
+    }
+    .back{
+        right: -640px;
+    }
+    .right{
+        transform:translateZ(640px) ;
+    }
+    .wrap{
+        -webkit-transform-origin:200px 25px 200px;
+    }
+    .filter{
+        max-width: 715px;
+        margin: 0;
+        min-height: 200px;
+        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: repeat(4,1fr);
+    }
+    .actiya{
+        z-index: 10000;
+        top: 8px;
+        left: 600px;
+    }
+    .imge{
+        width: 100%;
+    }
+    .callekciya{
+        height: 6010px;
+        max-width: 800px;
+        margin: 0;
+    }
+    .line{
+        flex-direction: column;
+        max-width: 800px;
+        min-height: 1500px;
+    }
+    .catalog{
+        margin: 0 ;
+        min-height: 1700px;
+        max-width: 720px;
+        grid-template-columns:repeat(2,1fr) ;
+        grid-template-rows:repeat(12,1fr) ;
+    }
+    .block:nth-child(1) {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        /* grid-area: a8; */
+    }
+    .block:nth-child(2){
+        grid-column-start:1 ;
+        grid-column-end:1 ;
+        grid-row-start:3 ;
+        grid-row-end:5 ;
+        /*grid-area: a9;*/
+    }
+    .block:nth-child(3) {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 5;
+        grid-row-end: 7;
+        /* grid-area: a8; */
+    }
+    .block:nth-child(4){
+        grid-column-start:1 ;
+        grid-column-end:1 ;
+        grid-row-start:7 ;
+        grid-row-end:9 ;
+        /*grid-area: a9;*/
+    }
+    .block:nth-child(5) {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 9;
+        grid-row-end: 11;
+        /* grid-area: a8; */
+    }
+    .block:nth-child(6){
+        grid-column-start:2 ;
+        grid-column-end:2 ;
+        grid-row-start:9 ;
+        grid-row-end:11 ;
+        /*grid-area: a9;*/
+    }
+    .block:nth-child(7) {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 11;
+        grid-row-end: 13;
+        /* grid-area: a8; */
+    }
+    .block:nth-child(8){
+        grid-column-start:2 ;
+        grid-column-end:2 ;
+        grid-row-start:11 ;
+        grid-row-end:13 ;
+        /*grid-area: a9;*/
+    }
+    .block:nth-child(9){
+        grid-column-start:2 ;
+        grid-column-end:2 ;
+        grid-row-start:1 ;
+        grid-row-end:9 ;
+        /*grid-area: a9;*/
+    }
+
+    .space{
+        max-width: 800px;
+        margin: 0;
+    }
+    .footer{
+        max-width: 800px;
+        margin: 0;
+        flex-direction: column;
+    }
+    .LogoSsilki{
+        max-width: 800px;
+        min-width: 800px;
+    }
+    .AdressaTel{
+        max-width: 800px;
+        min-width: 740px;
+    }
+    .AdressaTel div{
+        font-size: 30px;
+    }
+    .AdressaTel div .vector{
+        margin:  0  0  0 60px;
+    }
+}

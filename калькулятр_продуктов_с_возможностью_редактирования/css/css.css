@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+* a{
+    text-decoration: none;
+
+}
+#parent {
+    margin: 0 auto;
+    width: 500px;
+}
+
+#form {
+    display: flex;
+    margin-bottom: 15px;
+}
+#form input {
+    padding: 8px;
+    width: 24%;
+    margin: 0 0.5% 10px 0.5%;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 7px;
+}
+
+#table {
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+#table2 {
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+#table td, #table th {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid black;
+}
+#table2 td, #table th {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid black;
+}
+#table td.remove {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+#table2 td.remove {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+#table2{
+    display: flex;
+    flex-direction: column-reverse;
+}
+#table2 td:nth-child(5){
+    width: 110px;
+}
+#table2 td:nth-child(4){
+    width: 90px;
+}
+#table2 td:nth-child(1){
+    width: 120px;
+}
+#table2 td:nth-child(2){
+    width: 75px;
+}
+#table2 td:nth-child(3){
+    width: 95px;
+}
+#table td.remove:hover {
+    text-decoration: none;
+}
+#table2 td.remove:hover {
+    text-decoration: none;
+}
+
+#result {
+    text-align: right;
+    margin-right: 10px;
+}
+#norm{
+    width: 50px;
+    height: 20px;
+    outline:none;
+    outline-offset: 0;
+    border: 0;
+}
+#norm:active{
+    width: 50px;
+    height: 20px;
+    outline:none;
+    outline-offset: 0;
+    border: 0;
+}
+#norm:hover{
+    width: 50px;
+    height: 20px;
+    outline:none;
+    outline-offset: 0;
+    border: 0;
+}
+#norm:focus{
+    width: 50px;
+    height: 20px;
+    outline:none;
+    outline-offset: 0;
+    border: 0;
+}
+textarea {resize:none;}
+textarea {resize:vertical;}
+textarea {resize:horizontal;}

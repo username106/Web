@@ -1,0 +1,579 @@
+body{
+    margin: 0;
+
+
+}
+body h1{
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+html {
+    scroll-behavior: smooth;
+}
+.wrap{
+    width: 1600px;
+    height: 200px;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    height: 910px;
+    background-image: url("../img/First-screen-photo.jpg");
+    background-size: cover;
+}
+.top-menu{
+    width: 80%;
+    height: 91px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 35px;
+}
+.logo{
+    width: 230px;
+    height: 91px;
+}
+.menu{
+    width: 65%;
+    height: 91px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.menu a{
+   Color:whitesmoke;
+    font-size: 20px;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: red;
+     transition: 1s;
+}
+/*--------------------------------menu---------------------------------*/
+.text{
+    position: relative;
+    color: white;
+    top:50px;
+    left: 500px;
+    height: 150px;
+    width:604.25px;
+    display: flex;
+    flex-direction: row;
+    font-size: 80px;
+    letter-spacing: 30px;
+}
+@keyframes glow {
+    0%{
+        color: transparent;
+    }
+    50%{
+        color: white;
+        text-shadow: 0px 0px 10px white;
+        text-shadow: 0px 0px 9px white;
+        transform: translateX(10px);
+        text-shadow: 0px 0px 14px white;
+        text-shadow: 0px 0px 10px white;
+        text-shadow: 0px 0px 12px white;
+        text-shadow: 0px 0px 15px white;
+        text-shadow: 0px 0px 13px white;
+        text-shadow: 0px 0px 15px white;
+        text-shadow: 0px 0px 15px white;
+    }
+    100%{
+        transform: translateX(-10px);
+        color: transparent;
+    }
+
+}
+.text p:nth-child(1) {
+    animation: glow 2.5s linear infinite;
+}
+.text p:nth-child(2) {
+    animation: glow 3s linear infinite;
+}
+.text p:nth-child(3) {
+    animation: glow 1.01s linear infinite;
+}
+.text p:nth-child(4) {
+    animation: glow 1.1s linear infinite;
+}
+.text p:nth-child(5) {
+    animation: glow 2s linear infinite;
+}
+.text p:nth-child(6) {
+    animation: glow 3.1s linear infinite;
+}
+.text p:nth-child(7){
+    animation:glow 1.1s linear infinite;
+}
+.text p:nth-child(8){
+    animation:glow 3s linear infinite;
+}
+.text p:nth-child(9){
+    animation:glow 1.5s linear infinite;
+}
+.text p:nth-child(10){
+    animation:glow 2s linear infinite;
+}
+.angle{
+    position: relative;
+    top: 130px;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    animation: angle 1s infinite;
+}
+@keyframes angle {
+    0%{
+        margin: 420px auto;
+    }
+    50%{
+        margin: 430px auto;
+    }
+    100%{
+        margin: 420px auto;
+    }
+
+}
+
+
+/*--------------------------header-----------------------------------------*/
+.main{
+    width: 100%;
+    height: 2000px;
+
+}
+.card-top{
+    width: 100%;
+    height: 600px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-h{
+    width: 100%;
+    height: 82%;
+    background-image: url("../img/Shop-gourmet.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 -220px 220px -30px black;
+
+
+}
+
+.card-h h1{
+    color: white;
+    font-size: 40px;
+    letter-spacing: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+.card-h a{
+    text-decoration: none;
+}
+.card-h  h1:hover{
+    color: red;
+    transition: 1s;
+}
+.iconsGor{
+    width: 100%;
+    height: 50px;
+    margin-top: 350px;
+    padding-left: 20px;
+}
+.card-column{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    float: right;
+}
+
+
+.card{
+    width: 400px;
+    height: 220px;
+    box-shadow: inset 0 -40px 40px -4px black;
+
+}
+.carhartt{
+    background-image: url("../img/Shop-carhartt.jpg");
+    background-size: cover;
+    margin-left: 132px;
+
+}
+.adidas{
+    background-image: url("../img/Shop-adidas.jpg");
+    background-size: cover;
+    margin-left: 132px;
+}
+.iconscarh{
+    width: 100%;
+    height: 50px;
+    margin-top: 100px;
+    padding-left: 20px;
+}
+.carhartt  a {
+    text-decoration: none;
+}
+.carhartt h1{
+    color: white;
+    font-size: 20px;
+    width: 50%;
+    letter-spacing: 10px;
+    padding-left: 20px;
+}
+.carhartt h1:hover{
+    color:red;
+    transition: 1s;
+}
+.iconsadidas{
+    width: 100%;
+    height: 50px;
+    margin-top: 100px;
+    padding-left: 20px;
+}
+.adidas  a {
+    text-decoration: none;
+}
+.adidas h1{
+    color: white;
+    font-size: 20px;
+    width: 50%;
+    letter-spacing: 10px;
+    padding-left: 20px;
+}
+.adidas h1:hover{
+    color:red;
+    transition: 1s;
+}
+/*-------------------------card-top-------------------------------*/
+.card-main{
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.card-DEEP,.card-PALACE,.card-NIKE{
+    width: 32%;
+    height: 100%;
+    background-color: black;
+}
+.card-DEEP{
+    background-image: url("../img/10Deep-sale.jpg");
+    background-size: cover;
+}
+.card-PALACE{
+    background-image: url("../img/Palace-aw.jpg");
+    background-size: cover;
+}
+.card-NIKE{
+    background-image: url("../img/Tech-pack.jpg");
+    background-size: cover;
+}
+.iconsDEEP{
+    width: 100%;
+    height: 50px;
+    margin-top: 370px;
+    padding-left: 20px;
+}
+.card-DEEP a {
+    text-decoration: none;
+}
+.card-DEEP h1{
+    color: white;
+    font-size: 25px;
+    width: 50%;
+    letter-spacing: 10px;
+    padding-left: 20px;
+}
+.card-DEEP h1:hover{
+    color:red;
+    transition: 1s;
+}
+.iconsPALACE{
+    width: 100%;
+    height: 50px;
+    margin-top: 370px;
+    padding-left: 20px;
+}
+.card-PALACE a {
+    text-decoration: none;
+}
+.card-PALACE h1{
+    color: white;
+    font-size: 25px;
+    width: 70%;
+    letter-spacing: 10px;
+    padding-left: 20px;
+}
+.card-PALACE h1:hover{
+    color:red;
+    transition: 1s;
+}
+.iconsNIKE{
+    width: 100%;
+    height: 50px;
+    margin-top: 370px;
+    padding-left: 20px;
+}
+.card-NIKE a {
+    text-decoration: none;
+}
+.card-NIKE h1{
+    color: white;
+    font-size: 25px;
+    width: 70%;
+    letter-spacing: 10px;
+    padding-left: 20px;
+}
+.card-NIKE h1:hover{
+    color:red;
+    transition: 1s;
+}
+/*---------------------------------card-main-------------------------------*/
+.card-bottom{
+    width: 100%;
+    height: 830px;
+    margin: 50px auto;
+    filter: brightness(60%);
+
+}
+.card-bottom img{
+    background-size: cover;
+}
+.card-repeat-top{
+    width: 100%;
+    height: 50%;
+    display: flex;
+
+}
+
+.card-repeat-bottom{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.card-repeat1{
+    background-image: url("../img/Square-1.jpg");
+    width: 425px;
+    height: 425px;
+}
+.card-repeat2{
+    background-image: url("../img/Square-2.jpg");
+    width: 425px;
+    height: 425px;
+}
+.card-repeat3{
+    background-image: url("../img/Square-3.jpg");
+    width: 425px;
+    height: 425px;
+}
+.card-repeat4{
+    background-image: url("../img/Square-4.jpg");
+    width: 425px;
+    height: 425px;
+}
+.card-repeat5{
+    background-image: url("../img/Square-5.jpg");
+    width: 425px;
+    height: 425px;
+}
+.card-repeat6{
+    background-image: url("../img/Square-6.jpg");
+    width: 425px;
+    height: 425px;
+}
+.card-repeat7{
+    background-image: url("../img/Square-7.jpg");
+    width: 425px;
+    height: 425px;
+}.card-repeat8{
+     background-image: url("../img/Square-8.jpg");
+     width: 425px;
+     height: 425px;
+ }
+.txt{
+    position: absolute;
+    text-decoration: none;
+    left: 480px;
+    top: 315px;
+
+}
+.txt .sts{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 90px;
+    letter-spacing: 20px;
+    filter: brightness(200%);
+    font-weight: normal;
+}
+.txt .pokupki{
+    text-decoration: none;
+    color: #ec3915;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 20px;
+    margin-left: 180px;
+    filter: brightness(100%);
+}
+.txt .pokupki:hover{
+    transition: font-size 0.5s ease-in;
+    font-size: 40px;
+}
+ /*-------------------------------main--------------------------------*/
+.footer{
+    width: 100%;
+    height: 50px;
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bot{
+    width: 60%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -50px;
+}
+.nav-bot a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+.nav-bot a:hover{
+    color: red;
+    transition:  1s;
+}
+
+.social{
+    position: relative;
+    left: 380px;
+    width: 30%;
+    height: 50px;
+    letter-spacing: 15px;
+    margin-top: -50px;
+
+
+}
+.fa-instagram:hover{
+    transition: color 0.5s ease-in;
+    color: #ec3915;
+}
+.fa-facebook:hover{
+    transition: color 0.5s ease-in;
+    color: #ec3915;
+}
+.fa-twitter:hover{
+    transition: color 0.5s ease-in;
+    color: #ec3915;
+}
+
+/*
+@media screen and (max-device-width: 981px) {
+    header{
+        width: 1300px;
+    }
+    header .menu .sub-menu{
+        width: 700px;
+    }
+    header .menu .sub-menu a{
+        width: 140px;
+    }
+    main .bottom-content{
+        width: 1100px;
+    }
+}
+@media screen and (max-device-width: 779px){
+    header{
+        width: 1300px;
+    }
+    header .menu .sub-menu{
+        width: 600px;
+    }
+    header .menu .sub-menu a{
+        width: 120px;
+    }
+}
+*/
+@media screen and (max-device-width: 342px) {
+    body{
+        width: 300px;
+        margin: 0 auto;
+    }
+    header{
+        width: 300px;
+    }
+    article{
+        width: 300px;
+    }
+    footer{
+        width: 300px;
+    }
+}
+@media screen and (min-device-width: 581px)and(max-device-width:780px) {
+    body{
+        width: 780px;
+    }
+    header{
+        width: 780px;
+    }
+    article{
+        width: 780px;
+    }
+    footer{
+        width: 780px;
+    }
+}
+@media screen and (min-device-width: 779px)and(max-device-width: 980px) {
+    body{
+        width: 980px;
+    }
+    header{
+        width: 980px;
+    }
+    article{
+        width: 980px;
+    }
+    footer{
+        width: 980px;
+    }
+}
+@media screen and (min-device-width: 981px)and(max-device-width: 1280px){
+    body{
+        width: 1280px;
+    }
+    header{
+        width: 1280px;
+    }
+    article{
+        width: 1280px;
+    }
+    footer{
+        width: 1280px;
+    }
+}
+@media screen and (min-device-width: 1281px) {
+    body{
+        width: 2000px;
+    }
+    header{
+        width: 2000px;
+    }
+    article{
+        width: 2000px;
+    }
+    footer{
+        width: 2000px;
+    }
+}
+
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="jquery-ui.css">
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+<div class="wrap">
+    <div id="dialog-form" title="Create new user">
+        <p class="validateTips">All form fields are required.</p>
+
+        <form>
+            <fieldset>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" value="Jane " class="text ui-widget-content ui-corner-all">
+                <label for="firstname">firstname</label>
+                <input type="text" name="firstname" id="firstname" value="Smith" class="text ui-widget-content ui-corner-all">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" value="jane@smith.com" class="text ui-widget-content ui-corner-all">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" value="xxxxxxx" class="text ui-widget-content ui-corner-all">
+<!--                <label for="delete">delete</label>-->
+<!--                <input type="delete" name="delete" id="delete" value="x" class="delete">-->
+
+
+
+                <!-- Allow form submission with keyboard without duplicating the dialog button -->
+                <input type="submit" tabindex="-1" style="position:absolute; top:-1000px">
+            </fieldset>
+        </form>
+    </div>
+
+
+    <div id="users-contain" class="ui-widget">
+        <h1>Existing Users:</h1>
+        <table id="users" class="ui-widget ui-widget-content">
+            <thead>
+            <tr class="ui-widget-header ">
+                <th>Name</th>
+                <th>firstname</th>
+                <th>Email</th>
+                <th>Password</th>
+                <th>Delete</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>John </td>
+                <td>Doe</td>
+                <td>john.doe@example.com</td>
+                <td>johndoe1</td>
+                <td><input type="button" value="x" id="delete" class="delete" ></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <button id="create-user">Create new user</button>
+</div>
+<script src="jquery-3.6.0.js"></script>
+<script src="jquery-ui.js"></script>
+<script src="jusy.js"></script>
+</body>
+</html>

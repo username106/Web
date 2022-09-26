@@ -1,0 +1,155 @@
+.catalog{
+    margin: 0 auto;
+    height: 1100px;
+    width: 1480px;
+    display: grid;
+    grid-template-columns:repeat(8,1fr) ;
+    grid-template-rows:repeat(8,1fr) ;
+    gap: 10px;
+}
+h2{
+    color: black;
+    font-size: 40px;
+}
+.catalog .background{
+display: flex;
+    font-size: 40px;
+    transition: opacity 0.2s linear;
+    flex-direction: column;
+justify-content: space-around;
+}
+.catalog .block:hover .background {
+    opacity: .5;
+}
+.catalog .block:hover .letter a  {
+    display: block;
+}
+.catalog .letter a{
+    color: black;
+    display: none;
+transition: display;
+    font-size: 45px;
+
+}
+.letter a:hover .background{
+    opacity: .5;
+}
+.letter {
+    float:bottom;
+    width: 100%;
+    height: 50px;
+    position: relative;
+top: -55%;
+
+}
+.background{
+    background-size: cover ;
+    width: 100%;
+    height: 100%;
+}
+.block:nth-child(1) .background{
+    background: url("../img/pompei_2.jpg") no-repeat center;
+    background-size: cover ;
+}
+.block:nth-child(2) .background{
+    background: url("../img/p1f129jh491dmo2p89sd1e9q1mboc_1900x1425_1_0.jpg") no-repeat center;
+    background-size: cover ;
+
+}
+.block:nth-child(3) .background{
+    background: url("../img/184164570_keramicheskaya-plitka-antique.jpg") no-repeat center;
+    background-size: cover ;
+
+}
+.block:nth-child(4) .background{
+    background: url("../img/3757379b774fa40a283f96e692f8ceda.jpg") no-repeat center;
+    background-size: cover ;
+
+}
+.block:nth-child(5) .background{
+    background: url("../img/1plitka2020_11.jpg") no-repeat center;
+    background-size: cover ;
+
+}
+.block:nth-child(6) .background{
+    background: url("../img/uralkeramika-laguna-5.jpg") no-repeat center;
+    background-size: cover ;
+
+}
+.block:nth-child(7) .background{
+    background: url("../img/0f42dd57de5717097eeddaf0eb74e1f2.jpg") no-repeat center;
+    background-size: cover ;
+
+}
+.block:nth-child(8) .background{
+    background: url("../img/94605728-plitka-matisse-turquesa-1200x600-sn-1000x1000.jpg") no-repeat center;
+    background-size: cover ;
+}
+.block:nth-child(9) .background{
+    background: url("../img/w414_el76i7prg_74df7ceb.jpg") no-repeat center;
+    background-size: cover ;
+}
+.block:nth-child(1){
+    grid-column-start:1 ;
+    grid-column-end:3 ;
+    grid-row-start:1 ;
+    grid-row-end:3 ;
+/*grid-area: a1;*/
+}
+
+.block:nth-child(2){
+    grid-column-start:5 ;
+    grid-column-end:7 ;
+    grid-row-start:3 ;
+    grid-row-end:5 ;
+    /*grid-area: a2;*/
+}
+.block:nth-child(3){
+    grid-column-start:1 ;
+    grid-column-end:5 ;
+    grid-row-start:3 ;
+    grid-row-end:5 ;
+    /*grid-area: a3;*/
+}
+.block:nth-child(4){
+    grid-column-start:1 ;
+    grid-column-end:4 ;
+    grid-row-start:5 ;
+    grid-row-end:7 ;
+    /*grid-area: a4;*/
+}
+.block:nth-child(5){
+    grid-column-start:4 ;
+    grid-column-end:7 ;
+    grid-row-start:5 ;
+    grid-row-end:9 ;
+    /*grid-area: a5;*/
+}
+.block:nth-child(6){
+    grid-column-start:3 ;
+    grid-column-end:7 ;
+    grid-row-start:1 ;
+    grid-row-end:3 ;
+    /*grid-area: a6;*/
+}
+.block:nth-child(7){
+    grid-column-start:1 ;
+    grid-column-end:3 ;
+    grid-row-start:7 ;
+    grid-row-end:9 ;
+    /*grid-area: a7;*/
+}
+.block:nth-child(8){
+    grid-column-start:3 ;
+    grid-column-end:4 ;
+    grid-row-start:7 ;
+    grid-row-end:9 ;
+    /*grid-area: a8;*/
+}
+.block:nth-child(9){
+    grid-column-start:7 ;
+    grid-column-end:9 ;
+    grid-row-start:1 ;
+    grid-row-end:9 ;
+    /*grid-area: a9;*/
+}
